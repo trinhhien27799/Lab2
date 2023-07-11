@@ -6,29 +6,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".B4">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hệ số A"
+        android:id="@+id/A_Num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hệ số B"
+        android:id="@+id/B_Num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hệ số C"
+        android:id="@+id/C_Num"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/openB1"
-        android:text="B1"/>
+        android:text="Tính phương trình bậc 2"
+        android:id="@+id/btnB4"/>
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/openB2"
-        android:text="B2"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/openB3"
-        android:text="B3"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/openB4"
-        android:text="B4"/>
+        android:text="Result"
+        android:id="@+id/txtResultB4"/>
 </LinearLayout>

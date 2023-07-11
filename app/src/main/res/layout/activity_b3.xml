@@ -4,31 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".B3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inNumB3"
+        android:hint="Cạnh lập phương"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/openB1"
-        android:text="B1"/>
+        android:id="@+id/btnB3"
+        android:text="Tính thể tích hình lập phương"/>
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/openB2"
-        android:text="B2"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/openB3"
-        android:text="B3"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/openB4"
-        android:text="B4"/>
+        android:text="Result"
+        android:id="@+id/txtResultB3"/>
 </LinearLayout>
